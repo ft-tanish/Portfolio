@@ -18,12 +18,12 @@ const Intro = () => {
     const transition = { duration : 2, type : 'spring'}
 
     const theme = useContext(themeContext);
-    const darkMode = theme.state.darkmode;
+    const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
         <div className="i-left">
         <div className="i-name">
-            <span style ={{color: darkMode? 'white': ''}}>Hy! I am</span>
+            <span style ={{color: darkMode? 'white' : ''}}>Hy! I am</span>
             <span>Tanish Chaurasia</span>
             <span>Frontend Developer with high level of experience in web designing and development, producting the Quality work</span>
         </div>
