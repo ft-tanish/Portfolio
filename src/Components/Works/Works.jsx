@@ -13,7 +13,7 @@ import { motion } from 'framer-motion';
 const Works = () => {
     
     const theme = useContext(themeContext);
-    const darkMode = theme.state.darkmode;
+    const darkMode = theme.state.darkMode;
   return (
     <div className="works" id='Works'>
         <div className="awesome">

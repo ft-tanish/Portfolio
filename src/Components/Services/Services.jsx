@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 const Services = () => {
     const transition = {duration: 1, type : 'spring'}
     const theme = useContext(themeContext);
-    const darkMode = theme.state.darkmode;
+    const darkMode = theme.state.darkMode;
   return (
     <div className="services" id='Services'>
         {/* {left side} */}

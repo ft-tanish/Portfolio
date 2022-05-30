@@ -24,7 +24,7 @@ const Contact = () => {
     };
 
     const theme = useContext(themeContext);
-    const darkMode = theme.state.darkmode;
+    const darkMode = theme.state.darkMode;
 
   return (
     <div className="contact-form" id='Contact'>

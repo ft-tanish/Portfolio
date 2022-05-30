@@ -11,7 +11,7 @@ import { useContext } from 'react';
 
 const Portfolio = () => {
     const theme = useContext(themeContext);
-    const darkMode = theme.state.darkmode;
+    const darkMode = theme.state.darkMode;
   return (
     <div className="portfolio" id="Portfolio">
 
